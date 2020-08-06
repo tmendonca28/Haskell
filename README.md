@@ -41,3 +41,10 @@ All Haskell functions are pure
 - ```null' [x : xs]``` = False
 - ```head' (x : xs)``` = x
 - ```head' [] = error "head of empty list"```
+
+# Guards
+- These look at values within the data
+- There is no "=" before guards
+- "|" before each guard
+
+# Case Expressions
