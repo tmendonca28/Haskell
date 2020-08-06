@@ -50,3 +50,17 @@ All Haskell functions are pure
 # Case Expressions
 - Starts with case keyword
 - No guards in case expression
+
+# Where vs Let Binding
+- Where bindings must be associated with a function definition
+- Where - top down
+- Let - bottom up
+
+# Whitespace in Haskell guidelines
+- Do not use tabs. Ever
+- Indent further when breaking expression onto another line e.g.
+```
+pairMax p = max (fst p)
+                  (snd p)
+```
+- Line up variable bindings
