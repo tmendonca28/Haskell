@@ -48,3 +48,5 @@ All Haskell functions are pure
 - "|" before each guard
 
 # Case Expressions
+- Starts with case keyword
+- No guards in case expression
