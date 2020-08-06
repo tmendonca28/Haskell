@@ -64,3 +64,7 @@ pairMax p = max (fst p)
                   (snd p)
 ```
 - Line up variable bindings
+
+# Lazy function evaluation
+- In the following code: ```foo(alpha(1), beta(2))``` we know that the inner bracket will be evaluated first before foo is
+- In Haskell, we don't have a guarantee on when functions are evaluated
