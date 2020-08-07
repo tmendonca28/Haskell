@@ -86,3 +86,7 @@ pairMax p = max (fst p)
 - +, *, :, ++ are all functions, to use them put parentheses around the operator e.g.
 ```(+) 5 3```
 ```(a, b) .+ (c,d)``` = (a+c, b+d)
+
+# Map
+- Applied function to every element in list
+e.g. ```map (1+) [1,3,5,7]```
