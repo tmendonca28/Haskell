@@ -90,3 +90,4 @@ pairMax p = max (fst p)
 # Map
 - Applied function to every element in list
 e.g. ```map (1+) [1,3,5,7]```
+    ``` double = map (2*)```
